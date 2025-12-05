@@ -50,21 +50,38 @@ It includes:
 ---
 
 ## 📁 Project Structure  
-
+ 
 ```
 spotify-genre-segmentation/
-│-- 1_data_preprocessing.py
-│-- 2_data_visualization.py
-│-- 3_correlation_analysis.py
-│-- 4_clustering.py
-│-- 5_model_building.py
-│-- app.py
-│-- spotify dataset.csv
-│-- spotify_cleaned.csv
-│-- requirements.txt
-│-- README.md
-│-- .gitignore
-```
+│
+├── app/
+│   └── app.py
+│
+├── data/
+│   ├── raw/
+│   │   └── spotify dataset.csv
+│   └── processed/
+│       └── spotify_cleaned.csv
+│
+├── images/
+│   ├── Streamlit.png
+│   ├── clustering.png
+│   ├── clustering_2.png
+│   ├── data_visualization.png
+│   └── correlation_analysis.png
+│
+├── src/
+│   ├── 1_data_preprocessing.py
+│   ├── 2_data_visualization.py
+│   ├── 3_correlation_analysis.py
+│   ├── 4_clustering.py
+│   └── 5_model_building.py
+│
+├── .gitignore
+├── LICENSE
+├── README.md
+└── requirements.txt
+
 
 ---
 
