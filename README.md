@@ -120,8 +120,5 @@ http://localhost:8501/
 
 ---
 
-## 👤 Author  
-**Hari Krishna**  
-Machine Learning Developer  
-GitHub: [HariKrishna245](https://github.com/HariKrishna245)
+
 
